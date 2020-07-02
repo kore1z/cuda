@@ -1,0 +1,77 @@
+@font-face{
+    font-family: "Titillium Web";
+    src: url(fonts/TitilliumWeb-Light.ttf);
+    src: url(fonts/TitilliumWeb-Regular.ttf);
+    src: url(fonts/TitilliumWeb-SemiBold.ttf);
+    src: url(fonts/TitilliumWeb-Italic.ttf);
+    src: url(fonts/TitilliumWeb-Bold.ttf);
+    font-family: "Damion";
+    src: url(fonts/Damion-Regular.ttf)
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.header{
+    background-color: #87509c;
+    height: 596px;
+}
+.wrapper{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: auto;
+    position: relative;
+}
+.center{
+    text-align: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 58px;
+    padding-bottom: 40px;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+.nav_img{
+    margin-left: 40px;
+}
+.nav>li {
+    padding-left: 29px;
+    margin-left: 23px;
+    position: relative;
+}
+.nav>li:first-child{
+    padding-left: 0;
+    margin-left: 0;
+}
+.nav>li:first-child::before{
+    display:none;
+}
+.nav>li>a{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    color:white;
+    padding-left: 0px;
+    padding-top: 20px;
+    font-size: 42px;
+    font-weight: 700;
+    white-space: pre;
+}
+.button{
+    background-color: #eb7d4b;
+    padding: 20px 88px;
+    color:white;
+    border: none;
+    font-size: 18px;
+    margin-left: 400px;
+}
