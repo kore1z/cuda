@@ -11,7 +11,7 @@
 body{
     font-family: 'Titillium Web', sans-serif;
 }
-.header{
+header{
     background-color: #87509c;
     height: 596px;
 }
@@ -75,3 +75,52 @@ body{
     font-size: 18px;
     margin-left: 400px;
 }
+.body-services{
+    background-color: #17c2a4;
+    height: 747px;
+}
+.title-services{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-left: 314px;
+    margin-top: 110px;
+    letter-spacing: 0.1em;
+    position: absolute;
+}
+.text-services{
+    position: absolute;
+    display: flex;
+    font-size: 18px;
+    color:white;
+    margin-top: 195px;
+    margin-left: 250px;
+    white-space: pre;
+    word-spacing: 0.14em;
+    line-height: 1.3;
+}
+.icons-services{
+    display: flex;
+    padding-top: 325px;
+    color:white;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+.flag{
+    margin-right: 170px;
+    padding-left: 80px;
+}
+.pencil{
+    margin-right: 150px;
+}
+.gayka{
+    margin-right: 150px;
+}
+.services-p{
+    font-size: 16px;
+    padding-top: 40px;
+}
+
