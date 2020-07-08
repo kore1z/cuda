@@ -38,7 +38,6 @@ header{
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 0;
-
 }
 .nav_img{
     margin-left: 40px;
@@ -92,6 +91,14 @@ header{
     margin-top: 110px;
     letter-spacing: 0.1em;
     position: absolute;
+}
+.lineOne{
+    width: 87px;
+    height: 3px;
+    background: #14a58c;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 .text-services{
     position: absolute;
@@ -353,4 +360,57 @@ header{
     background: #17c2a4;
     border-bottom: 5px solid #14a58c;
     color: white;
+}
+.body-about{
+    height: 895px;
+    background-color: #d74680;
+    padding-top: 80px;
+    color:white;
+    
+}
+.title-about{
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.text-about{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.about{
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+}
+.about-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.about_img{
+    background: #787878;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.about_text{
+    flex-basis: calc(100% - 120px);
+}
+.about h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.about p {
+    font-size: 14px;
+    color: #facd96;
+    font-style: italic;
+}
+.about_text>span{
+    line-height: 27px;
+    font-size: 1.2em;
+    font-weight: 300;
 }
