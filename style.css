@@ -362,7 +362,7 @@ header{
     color: white;
 }
 .body-about{
-    height: 895px;
+    height: 820px;
     background-color: #d74680;
     padding-top: 80px;
     color:white;
@@ -413,4 +413,87 @@ header{
     line-height: 27px;
     font-size: 1.2em;
     font-weight: 300;
+}
+.footer-message{
+    background-color:#3c5499;
+    height: 750px;
+    color:white;
+    padding-top: 84px;
+}
+.title-message{
+    text-align: center;
+    font-size: 40px;
+    margin-right: 100px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.text-message{
+    font-size: 18px;
+    margin-left: 140px;
+    letter-spacing: 0.4px;
+}
+.form-touch{
+    max-width: 970px;
+    margin: 0 auto;
+    padding-top: 58px;
+    padding-bottom: 0;
+}
+.name-form{
+    padding-bottom: 25px;
+}
+.form-control1{
+    background: #273a71;
+    border: 0;
+    color: white;
+    height: 55px;
+    width: 410px;
+}
+.form-control2{
+    background: #273a71;
+    border: 0;
+    color: white;
+    margin-left: 30px;
+    height: 55px;
+    width: 410px;
+}
+.form-control3{
+    background: #273a71;
+    border: 0;
+    color: white;
+    width: 860px;
+    height: 200px;
+}
+.message-form{
+    padding-bottom: 60px;
+}
+.form-button{
+    background: #32bae7;
+    font-weight: 700;
+    border-bottom: 5px solid #c86a43;
+    padding: 24px 90px;
+    color: white;
+    font-size: 18px;
+    margin-left: 285px;
+    border-style: none;
+}
+.footer{
+    background: #344b8e;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #4C68B9;
+    text-align: center;
+}
+.footer>ul{
+    list-style-type: none;
+}
+.footer>ul>li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    color:white;
+}
+.footer>ul>li>a{
+    color:white;
+    text-decoration: none;
 }
