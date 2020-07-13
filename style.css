@@ -118,38 +118,74 @@ header{
 }
 .icons-services{
     display: flex;
-    padding-top: 325px;
-    color:white;
+    padding-top: 27%;
+    color: white;
     font-size: 12px;
     font-weight: 300;
     text-align: center;
 }
-.flag{
+.flag-img{
+    padding-left: 18%;
+    padding-top: 2%;
 }
-.pencil{
+.pencil-img{
+    padding-left: 15%;
 }
-.gayka{
+.gayka-img{
+    padding-left: 7%;
+    padding-top: 3%;
+}
+.rocket-img{
+    padding-right: 4%;
+    padding-top: 1%;
 }
 .flag-h1{
-    padding-top: 16%;
-    text-align: start;
-    padding-left: 21%;
+    padding-top: 12%;
+    text-align: center;
+    padding-left: 13%;
+    letter-spacing: 0.02em;
 }
 .pencil-h1{
     padding-top: 15%;
+    padding-left: 11%;
 }
 .gayka-h1{
-
+    padding-top: 11%;
+    padding-left: 8%;
 }
 .rocket-h1{
-
+    padding-top: 12%;
+    padding-right: 2%;
+    letter-spacing: 0.03em;
 }
-.services-p{
+.services-p1{
+    font-size: 16px;
+    padding-top: 1%;
+    line-height: 1.5em;
+    padding-left: 27%;
+    padding-right: 13%;
+}
+.services-p2{
+    font-size: 16px;
+    padding-top: 1%;
+    line-height: 1.5em;
+    padding-left: 19%;
+    padding-right: 6%;
+}
+.services-p3{
     font-size: 16px;
     text-align: start;
     padding-top: 1%;
     line-height: 1.5em;
-    padding-left: 4%;
+    padding-left: 25%;
+    padding-right: 20%;
+}
+.services-p4{
+    font-size: 16px;
+    padding-top: 1%;
+    line-height: 1.5em;
+    padding-left: 8%;
+    padding-right: 5%;
 }
 .body-team{
     background-color:#e7f1f8;
@@ -157,30 +193,49 @@ header{
 }
 .team{
     display: flex;
-    padding-top: 250px;
-    margin-left: 50px;
+    padding-top: 20%;
+    margin-left: 3.5%;
 }
 .first-team{
-    padding-right: 100px;
+
 }
 .second-team{
-    padding-right: 100px;
+
 }
 .third-team{
-    padding-right: 100px;
+
 }
 .fouth-team{
-    padding-right: 100px;
+
 }
 .team-header{
-    padding-top: 10px;
+    padding-top: 0.8%;
     padding-bottom: 50px;
 }
-.team-img{
+.team-img1{
     border-radius: 100%;
-    padding: 10px;
-    background: #696969;
-    margin-left: 25px;
+    padding: 36%;
+    background: #878787;
+    margin-left: 16%;
+}
+.team-img2{
+    border-radius: 100%;
+    padding: 36%;
+    background: #878787;
+    margin-left: 17%;
+    padding-top: 38%;
+}
+.team-img3{
+    border-radius: 100%;
+    padding: 33.2%;
+    background: #878787;
+    margin-left: 16%;
+}
+.team-img4{
+    border-radius: 100%;
+    padding: 37.6%;
+    background: #878787;
+    margin-left: 10%;
 }
 .title-team{
     color: #3c4761;
@@ -188,37 +243,68 @@ header{
     font-size: 40px;
     padding-left: 0px;
     padding-top: 0px;
-    margin-left: 320px;
-    margin-top: 100px;
+    margin-left: 26%;
+    margin-top: 8.5%;
     letter-spacing: 0.1em;
     position: absolute;
 }
 .text-team{
     position: absolute;
-    display: flex;
     font-size: 18px;
     color: #3c4761;
-    margin-top: 185px;
-    margin-left: 290px;
-    white-space: pre;
+    margin-top: 15.6%;
+    margin-left: 23.7%;
     word-spacing: 0.1em;
-    line-height: 1.3;
 }
 .team-name{
-    color:#3c4761;
-    font-size: 22px;
+    color: #3c4761;
+    font-size: 23px;
     text-align: center;
+    padding-top: 7%;
+    letter-spacing: 0.04em;
+    padding-left: 2%;
+    margin-bottom: auto;
+    padding-bottom: 2%;
 }
-.team-position{
-    color:#55c2e9;
-    font-size: 18px;
-    font-weight: 400;
+.team-position1{
+    color: #55c2e9;
+    font-weight: 500;
+    margin-top: 0px;
     text-align: center;
+    letter-spacing: 0.04em;
+    padding-left: 5%;
+}
+.team-position2{
+    color: #55c2e9;
+    font-weight: 500;
+    margin-top: 0px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    padding-left: 5%;
+}
+.team-position3{
+    color: #55c2e9;
+    font-weight: 500;
+    margin-top: 0px;
+    text-align: center;
+    padding-right: 2%;
+}
+.team-position4{
+    color: #55c2e9;
+    font-weight: 500;
+    margin-top: 0px;
+    text-align: center;
+    padding-right: 3%;
+    letter-spacing: 0.02em;
+    padding-top: 1%;
 }
 .team-about{
     text-align: center;
-    color:#4d586f;
-    font-size: 18px;
+    color: #4d586f;
+    font-size: 17px;
+    padding-left: 10%;
+    padding-top: 2%;
+    line-height: 145%;
 }
 .skills-graph{
     display: flex;
