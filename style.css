@@ -47,10 +47,6 @@ header{
     margin-left: 23px;
     position: relative;
 }
-.nav>li:first-child{
-    padding-left: 0;
-    margin-left: 0;
-}
 .nav>li>a{
     text-decoration: none;
     color: white;
@@ -196,18 +192,6 @@ header{
     padding-top: 20%;
     margin-left: 3.5%;
 }
-.first-team{
-
-}
-.second-team{
-
-}
-.third-team{
-
-}
-.fouth-team{
-
-}
 .team-header{
     padding-top: 0.8%;
     padding-bottom: 50px;
@@ -308,7 +292,7 @@ header{
 }
 .skills-graph{
     display: flex;
-    padding-top: 63px;
+    padding-top: 4.6%;
 }
 .body-skills{
     background-color:white;
@@ -322,21 +306,23 @@ header{
 .text-skills{
     color: #3c4761;
     text-align: center;
-    margin-left: 30px;
+    margin-left: 3.4%;
     font-weight: 400;
     font-size: 18px;
-    white-space: pre
+    white-space: pre;
+    letter-spacing: 0.02em;
+    line-height: 24px;
 }
 .title-skills{
     color: #3c4761;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 105px;
+    margin-top: 9%;
     font-size: 42px;
     font-weight: 700;
-    margin-left: 50px;
+    margin-left: 4.2%;
     letter-spacing: 0.08em;
-    padding-bottom: 11px;
+    padding-bottom: 0.7%;
 }
 .circle-first{
     padding-right: 87px;
@@ -355,25 +341,25 @@ header{
 .circle-text-first{
     color: #3c4761;
     font-size: 24px;
-    padding-top: 4px;
-    margin-left: 31px;
+    padding-top: 1%;
+    margin-left: 17%;
 }
 .circle-text-second{
     color: #3c4761;
     font-size: 24px;
-    padding-top: 4px;
-    margin-left: 31px; 
+    padding-top: 1.5%;
+    margin-left: 16%;
 }
 .circle-text-third{
     color: #3c4761;
     font-size: 24px;
-    padding-top: 4px;
+    padding-top: 2%;
+    padding-left: 3%;
 }
 .circle-text-fouth{
     color: #3c4761;
     font-size: 24px;
-    padding-top: 4px;
-    margin-left: 31px; 
+    margin-left: 27%;
 }
 .body-portfolio{
     height: 1230px;
@@ -387,69 +373,92 @@ header{
     font-weight: 600;
     font-size: 41px;
     letter-spacing: 0.1em;
+    padding-left: 4%;
 }
 .text-portfolio{
-    padding-top: 10px;
+    padding-top: 0.7%;
     white-space: pre;
-    font-size: 1.1em;
-    margin-bottom: 5px;
-    display: block;
-    margin-top: 5px;
-    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    padding-left: 2%;
 }
 .menu{
     list-style-type: none;
     display: flex;
-    margin-left: 350px;
-    padding-top: 35px;
+    margin-left: 32.4%;
+    padding-top: 1.8%;
 }
 .menu>li{
-    padding: 2px 14px;
-}
-.menu>li>button{
     background: #ebc985;
-    padding: 2px 14px;
-    margin-right: 5px;
-    color: #111;
+    padding: 1% 3%;
     text-transform: uppercase;
     border-radius: 4px;
     border: none;
     line-height: 1.5em;
+    margin-right: 5px;
+}
+.menu>li>button{
+    background: #ebc985;
+    border: none;
+    font-size: 18px;
+}
+.menu>li>button:hover{
+    color:white;
 }
 .notebook-portfolio{
-    padding-top: 35px;
+    padding-top: 2.8%;
 }
 .notebooks{
     position: relative;
     overflow: hidden;
     height: 850px;
     list-style: none;
+    margin-bottom: 0px;
 }
 .n-first{
     position: absolute;
     left: 0px;
     top: 0px;
-    transform: translate3d(30px, 0px, 0px);
+    transform: translate3d(55px, 0px, 0px);
 }
 .n-second{
     position: absolute;
     left: 0px;
     top: 0px;
-    transform: translate3d(590px, 0px, 0px);
+    transform: translate3d(616px, 0px, 0px);
 }
 .n-third{
     position: absolute;
     left: 0px;
     top: 0px;
-    transform: translate3d(30px, 420px, 0px);
+    transform: translate3d(58px, 418px, 0px);
 }
 .n-fouth{
     position: absolute;
     left: 0px;
     top: 0px;
-    transform: translate3d(590px, 420px, 0px)
+    transform: translate3d(618px, 420px, 0px);
 }
-.title-notebook{
+.title-notebook1{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #222;
+    line-height: 25px;
+    padding-top: 1.2%;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    padding-left: 3%;
+}
+.title-notebook2{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #222;
+    line-height: 25px;
+    padding-top: 1.1%;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.title-notebook3{
     font-size: 1.2em;
     font-weight: 400;
     color: #222;
@@ -457,20 +466,34 @@ header{
     padding-top: 8px;
     padding-bottom: 5px;
     text-transform: uppercase;
+    padding-right: 3%;
+}
+.title-notebook4{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #222;
+    line-height: 25px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    padding-left: 4%;
 }
 .button-portfolio{
     border-style: none;
-    padding:18px 95px;
+    padding: 23px 63px;
     background: #17c2a4;
     border-bottom: 5px solid #14a58c;
     color: white;
+    margin-left: 4%;
+    margin-top: 0.6%;
+    font-weight: 600;
+    font-size: 18px;
 }
 .body-about{
     height: 820px;
     background-color: #d74680;
     padding-top: 80px;
     color:white;
-    
 }
 .title-about{
     font-size: 45px;
